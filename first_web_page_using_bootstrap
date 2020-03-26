@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Shark</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+      .follow{
+          float: right;
+    color: black;
+    padding-top: 20px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+  
+}
+.icon:hover {
+    opacity: 0.6;
+}
+.footer {
+   position:sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 80px;
+   background-color:whitesmoke;
+   color: white;
+   
+}
+  </style>
+</head>
+<body>
+
+
+<div class="jumbotron text-center" style="color:white; background-image: 
+    url('https://media.giphy.com/media/1qXG7Db4pbpVkCfBgg/giphy.gif');margin-bottom:0">
+  <!--img src="https://media.giphy.com/media/1qXG7Db4pbpVkCfBgg/giphy.gif" -->
+  <h1>Welcome to Gym Shark Fitness Club</h1>
+  <h4>Following are the activities we offer</h4> 
+</div>
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark" style="margin-bottom: 10px;">
+    <a class="navbar-brand" href="#">Home</a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Nutrition Partners</a>
+              <a class="dropdown-item" href="#">Our Training Programs</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Gym Shark</a>
+            </div>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" style="border-0">
+      <a href="https://en.wikipedia.org/wiki/Calisthenics"><h3>Calisthenics</h3></a>
+      <p>Natural body building with body weight.</p>
+      <p>Calisthenics is a form of exercise consisting of a variety of movements which exercise large muscle groups (gross motor movements),
+        such as running, standing, grasping, pushing, etc. These exercises are often performed rhythmically and with minimal equipment, 
+        as bodyweight exercises. They are intended to increase strength, fitness and flexibility, through movements such as pulling, pushing,
+        bending, jumping, or swinging, using one's bodyweight for resistance. Calisthenics can provide the benefits of muscular and aerobic 
+        conditioning, in addition to improving psychomotor skills such as balance, agility and coordination.</p>
+      <p>We provide you proper guidence and training for body building through Calisthenics. Our coaches are one 
+          of the best in body building industry and IFBB certified. </p>  
+    </div>
+    <div class="col-sm-3" class="extra">
+      <a href="https://en.wikipedia.org/wiki/Aesthetics"><h3>Aeshthetics</h3></a>
+      <p>Aesthatic body building.</p>
+      <p>Normal bodybuilding is mostly concerned about increasing strength for you to lift more weights and be a stronger version of yourself.
+        Aesthetics are actually secondary and not a gauge of your ability. Aesthetic bodybuilding, of course, is concerned primarily about how
+        good your body looks with muscles. How much you can lift and your strength is secondary. Modeling aspirations play a big part in the
+        Aesthetic bodybuilder as some of them may take this sport up just to look good enough and become a model. Indeed, having big muscles is
+        a great way to start up a modeling career.</p>
+        <p>We provide you proper guidence and training for body building through Aesthatics. Our coaches are one 
+            of the best in body building industry and IFBB certified. </p>         
+    </div>
+    <div class="col-sm-3" class="extra">
+      <a href="https://en.wikipedia.org/wiki/Yoga"><h3>Yoga</h3></a>
+      <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India.</p>
+      <p>There is a broad variety of yoga schools, practices, and goals in Hinduism, Buddhism, and Jainism. The term "Yoga" in the Western
+        world often denotes a modern form of hatha yoga and yoga as exercise, consisting largely of the postures called asanas.
+        The origins of yoga have been speculated to date back to pre-vedic Indian traditions; possibly in the Indus valley civilization around 
+        3000 BCE. Yoga is mentioned in the Rigveda, also referenced in the Upanishads, but yoga most likely developed as a systematic study 
+        around the 5th and 6th centuries BCE, in ancient India's ascetic and śramaṇa movements. The chronology of earliest texts describing
+        yoga-practices is unclear, varyingly credited to Upanishads. Hatha yoga texts emerged sometimes between the 9th and 11th century with
+        origins in tantra.</p>
+    </div>
+    <div class="col-sm-3" class="extra">
+      <a href="https://en.wikipedia.org/wiki/Aerobics"><h3>Aerobic</h3></a>        
+      <p>Aerobic activities make you breathe harder and make your heart and blood vessels healthier. These include:</p>
+      <ul>
+          <li>Walking</li>
+          <li>Dancing </li>
+          <li>Swimming</li>
+          <li>Water aerobics</li>
+          <li>Jogging and running</li>
+          <li>Aerobic classes</li>
+          <li>Bicycle riding</li>
+          <li>Gardening Activities</li>
+          <li>Golfing</li>
+      </ul>
+      <p> Formal aerobics classes are divided into different levels of intensity and complexity and will have five components: warm-up (5–10 minutes), 
+          cardiovascular conditioning (25–30 minutes), muscular strength and conditioning (10–15 minutes), cool-down (5–8 minutes) and 
+          stretching and flexibility (5–8 minutes). Aerobics classes may allow participants to select their level of participation 
+          according to their fitness level.</p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+    <h4 class="follow">Follow us on : <a href="http://www.instagram.com"><img class="icon" src='https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png' /></a>
+        <a href="http://www.twitter.com"><img class="icon" src='https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png' /></a>
+        <a href="http://www.facebook.com"><img class="icon" src="https://www.freeiconspng.com/uploads/facebook-icon-facebook-icon-convertido-2.png" /></a>
+    </h4>
+  </div>
+</body>
+</html>
