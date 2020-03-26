@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <button id="reserve" onclick="makeReservation()"> Make a reservation </button>
+            </div>
+        </header>
+        <h1 id="heading" style="color:antiquewhite;">Hope you enjoyed your meal</h1>
+    <div id="form">
+        <form>
+            <h2>Tip Calculator</h2>
+            <p>Please enter your billing amount :</p>
+            <input type="number" id="amount">
+            <p>Please rate your meal:</p>
+                <label>Select here : </label>
+                <select id = "myList">
+                <option value = "good">Good</option>
+                <option value = "average">Average</option>
+                <option value = "bad">Bad</option>
+                </select>
+                <button type="button" onclick="tipFunction()">Submit</button>
+            <p id="demo">Tip amount: </p>
+        </form>
+    </div>
+    </body>
+    <script src="myscript.js"></script>
+</html>
