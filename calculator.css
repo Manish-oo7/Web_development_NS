@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://media.cntraveler.com/photos/5b4e400eb353636ad7e30a20/master/w_4000,h_2722,c_limit/Le-Diplomate_2018_Le-Diplomate--Banquets_8492-FINAL-Credit-Jason-Varney-(Starr-Restaurants's-conflicted-copy-2015-06-12).jpg");
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#reserve {
+    border: solid 2px #fff;
+    padding: 5px;
+    
+}
+
+#reserve:hover{
+    opacity: 0.7;
+}
+
+#heading {
+    text-align: center;
+}
+
+#form{
+    border: solid 2px;
+    width: 350px;
+    padding-bottom: 20px;
+    height: auto;
+    margin: auto;
+    background-color: whitesmoke;
+    opacity: 0.95;
+}
